@@ -19,7 +19,7 @@ public class InfoProcess {
 	return path;
     }
 
-    public String fileName() {
+    public String getFileName() {
 	return fileName;
     }
 

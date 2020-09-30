@@ -15,8 +15,7 @@ public class App {
 
 	// This is a service will wait forever
 	try {
-	    Thread t = Thread.currentThread();
-	    t.join();
+	    Thread.currentThread().join();
 	}
 	catch (InterruptedException ie) { }
     }
